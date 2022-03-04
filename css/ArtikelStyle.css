@@ -15,6 +15,8 @@
 
 }
 
+
+
 .article-img-box img {
    width: 100%;
     height: auto;
@@ -28,13 +30,14 @@ body {
     font-family: sans-serif;
     line-height: 1.8;
     letter-spacing: 0.6px;
+
 }
 
 .mainheader {
-    background-image: url("images/Dansk madspild sættes under ekstra lup.foto_.jpg");
     width: 100%;
     height: 730px;
     display: flex;
+
 
 }
 
@@ -93,12 +96,14 @@ h2 {
     margin-right: 100px;
     padding-left: 100px;
     padding-right: 50%;
+
 }
 
 .small-section-box {
     display: flex;
     margin-top: 20px;
     margin-bottom: 30px;
+
 }
 
 p {

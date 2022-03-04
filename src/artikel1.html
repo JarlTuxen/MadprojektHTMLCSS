@@ -3,23 +3,27 @@
 <head>
 
     <meta charset="UTF-8">
-    <link th:href="@{ArtikelStyle.css}" rel="stylesheet" href="../static/ArtikelStyle.css">
-    <link th:href="@{NavBar.css}" rel="stylesheet" href="../static/NavBar.css">
+    <link  rel="stylesheet" href="/css/ArtikelStyle.css">
+    <link  rel="stylesheet" href="/css/NavBar.css">
     <title>Vi Smider 814.00 ton mad ud om året</title>
 </head>
 <body>
 <main class="hero-section">
+    <style>
+        .hero-section {
+            background-image: url(/images/posemedmad.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
 
     <div class="mainheader">
 
         <div class="wrapper">
-            <a href="index.html"><img class="logo-nav" th:src="@{images/LogoMadgild.png}" src="/static/images/LogoMadgild.png" alt="logo"/></a>
+            <a href="index.html"><img class="logo-nav"  src="/images/LogoMadgild.png" alt="logo"/></a>
             <h1 class="maintext">
-
             </h1>
-
         </div>
-
     </div>
     <div class="navi-section" >
         <div class="navbar" id="navbar">
@@ -27,7 +31,6 @@
             <a href="">Hvad er Madspild?</a>
             <a href="">Iværksætteri</a>
             <a href="">Sundhed</a>
-
         </div>
     </div>
 </main>
@@ -55,7 +58,7 @@
         <div class="article-section-box">
             <div class="small-section-box">
                 <div class="article-img-box">
-                    <a href="index.html"><img class="logo-nav" th:src="@{images/Madrester.png}" src="/static/images/Background/Madrester.png" alt="logo"/></a>
+                    <a href="index.html"><img class="logo-nav" src="/images/staticimages/Background/Madrester.png" alt="logo"/></a>
                 </div>
                 <div class="paragraf-box">
                     <h2 class="article-header">
@@ -121,13 +124,11 @@
                     hudpleje, elektronik og tilbudsaviser - altså en slags hverdags-fotomodel.
                 </p>
             </div>
-
         </div>
         <footer>
             <div class="footer-content">
                 <div class="logo">
-                    <a href="index.html"><img class="logo-nav" th:src="@{images/LogoMadgild.png}" src="/static/images/LogoMadgild.png" alt="logo"/></a>
-
+                    <a href="index.html"><img class="logo-nav" src="/images/LogoMadgild.png" alt="logo"/></a>
                 </div>
                 <nav class="navigation">
                     <ul class="list">
@@ -150,10 +151,10 @@
                 </nav>
                 <div class="socials">
                     <div class="facebook">
-                        <a href="index.html"><img class="logo-nav" th:src="@{images/2021_Facebook_icon.svg.png}" src="/static/images/2021_Facebook_icon.svg.png" alt="logo"/></a>
+                        <a href="index.html"><img class="logo-nav" src="/images/2021_Facebook_icon.svg.png" alt="logo"/></a>
                     </div>
                     <div class="instagram">
-                        <a href="index.html"><img class="logo-nav" th:src="@{images/Instagram_logo_2016.svg.png}" src="/static/images/Instagram_logo_2016.svg.png" alt="logo"/></a>
+                        <a href="index.html"><img class="logo-nav" src="/images/Instagram_logo_2016.svg.png" alt="logo"/></a>
                     </div>
                 </div>
             </div>
