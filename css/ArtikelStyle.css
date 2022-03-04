@@ -16,8 +16,8 @@
 }
 
 .article-img-box img {
-    width: 250px;
-    height: 250px;
+   width: 100%;
+    height: auto;
 }
 
 .second-preview {
@@ -31,7 +31,7 @@ body {
 }
 
 .mainheader {
-    background-image: url("../../../../../Madprojekt-UdenSpringBoot/images/images/Dansk madspild sættes under ekstra lup.foto_.jpg");
+    background-image: url("images/Dansk madspild sættes under ekstra lup.foto_.jpg");
     width: 100%;
     height: 730px;
     display: flex;
@@ -111,6 +111,7 @@ p {
 .paragraf-box {
     flex: 0 0 70%;
     max-width: 70%;
+    padding-left: 5%;
 }
 
 .background {
@@ -127,7 +128,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     background-color: #FFF9E6;
-    padding: 20px 240px 40px;
+    padding: 20px 10% 40px;
 
 
 }
@@ -163,6 +164,44 @@ p {
     margin-top: 15px;
 }
 
+
+
+ul.breadcrumb {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 16px;
+    list-style: none;
+    background-color: #FFF9E6;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 14px;
+    padding-left: 0;
+}
+
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+
 .info {
     display: flex;
     margin-bottom: 10px;
@@ -196,7 +235,7 @@ p {
     margin-bottom: 40px;
 }
 footer{
-    display: grid;
+    display: inline-block;
     width: 100%;
     margin-top: 40px;
 
@@ -206,26 +245,24 @@ footer{
 .footer-content {
     display: flex;
     justify-content: center;
-    margin-left: -180px;
-    margin-right: -180px;
-    background-color: #FFC107;
+    margin-left: -120px;
+    margin-right: -120px;
+    background-color: #FFF9E6;
     padding-top: 20px;
     padding-bottom: 20px;
 
-
 }
-
 
 .facebook img {
     width: 50px;
     height: 50px;
-
 }
 
 .facebook {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 20px;
 }
 
 .instagram {
@@ -254,12 +291,29 @@ footer{
 li {
     padding: 5px 10px;
     list-style: none;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+}
+
+.li-nav:hover {
+   background-color: #FFD75E;
+    border-radius: 2px;
+}
+
+.big-images {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 .navigation {
     display: flex;
     justify-content: center;
-    width: 60%;
+    width: 55%;
+    margin-right: 40px;
+
 }
 .socials {
     display: flex;
@@ -269,6 +323,7 @@ li {
 .logo {
     display: flex;
     justify-content: flex-end;
+    padding-bottom: 1%;
 }
 .second-small-section-box{
     display: flex;
