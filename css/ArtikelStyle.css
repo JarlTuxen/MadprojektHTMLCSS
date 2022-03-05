@@ -438,4 +438,9 @@ a button:hover {
     transform: scale(1.2);
     border-radius: 8px 8px 8px 8px;
 }
+.logo {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 1%;
+}
 
