@@ -126,7 +126,7 @@ html, body {
 
 footer{
     display: inline-block;
-    width: 100%;
+    width: 80%;
     margin-top: 40px;
 
 }
@@ -135,7 +135,7 @@ footer{
 .footer-content {
     display: flex;
     justify-content: center;
-    margin-left: -120px;
+    margin-left: 120px;
     margin-right: -120px;
     background-color: #FFF9E6;
     padding-top: 20px;
