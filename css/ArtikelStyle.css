@@ -84,16 +84,6 @@ h2 {
 }
 
 
-
-.maintext::after {
-    content: "Vi smider 814.000 ton mad ud om året";
-    display: flex;
-    color: #F5F3ED;
-    font-size: 60px;
-    line-height: 1;
-    font-family: Inter, sans-serif;
-
-}
 .wrapper {
     margin-left: 100px;
     margin-right: 100px;
