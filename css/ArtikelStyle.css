@@ -68,7 +68,7 @@ h2 {
 .maintext::before {
     content: "Bekæmp madspild!";
     display: flex;
-    margin-top: 60px;
+    margin-top: 80px;
     justify-content: start;
     color: #2f2f2d;
     font-size: 36px;
@@ -100,9 +100,11 @@ h2 {
 }
 
 p {
-    font-size: 18px;
-    font-weight: 500;
-    color: #807777;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    text-decoration: none;
+    color: #4b4747;
 
 }
 
@@ -283,6 +285,49 @@ footer{
 .logo img {
     width: 200px;
     height: 200px;
+}
+
+.numbered-li {
+    list-style: nu;
+    margin-bottom: 5px;
+
+
+}
+
+
+.numbered-list {
+    padding-left:20px;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    text-decoration: none;
+    color: #4b4747;
+    margin-bottom: 20px;
+}
+.bullet-list {
+    font-weight: 300;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    text-decoration: none;
+    color: #4b4747;
+    margin-bottom: 20px;
+
+}
+
+.bullet-li {
+    list-style: none;
+    padding-left: 0;
+}
+
+.bullet-li:before {
+    color: green;
+    content: "\2022";
+    font-weight: 900;
+    font-size: 20px;
+    width: 1em;
+    display: inline-block;
+
+
 }
 
 .list {
