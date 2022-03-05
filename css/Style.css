@@ -240,11 +240,7 @@ a button:hover {
     cursor: pointer;
 }
 
-.logo {
-    display: flex;
-    justify-content: flex-end;
-    padding-bottom: 1%;
-}
+
 .second-small-section-box{
     display: flex;
     flex-direction: row-reverse;
