@@ -26,14 +26,6 @@ html, body {
     line-height: 30px;
     text-align: justify;
 }
-.footer{
-    /* background-color: #FFC107; */
-    background-color: aqua;
-    display: flex;
-    text-align: center;
-    margin: 20px -60px;
-    padding: 20px 60px;
-}
 
 .wrapper{
     background-color: #FFF9E6;
@@ -64,39 +56,6 @@ html, body {
     font-size: 14px;
 }
 
-.footerLogo2{
-    display: block;
-    width: 25%;
-}
-.footerList{
-    display: inline-block;
-    margin-right: 160px;
-}
-.socialsIcons{
-display: block;
-}
-.footerContent{
-    justify-content: center;
-    display: flex;
-}
-.footerpicture{
-    margin-right: 120px;
-}
-
-footer{
-    display: grid;
-    width: 100%;
-    margin-top: 40px;
-}
-.footer-content {
-    display: flex;
-    justify-content: center;
-    margin-left: -180px;
-    margin-right: -180px;
-    background-color: #FFC107;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
 .article1picture{
     width: 300px;
 }
@@ -113,11 +72,58 @@ footer{
     text-transform: uppercase;
     color: white;
     padding: 12px;
-    margin-left: 23em;
+    margin-left: 78%;
     font-weight: bold;
     letter-spacing: 1.5px;
     border: 0;
 }
+
+.article2picture{
+    width: 350px;
+}
+.article2{
+    padding-top: 40px;
+    display: grid;
+    grid-template: 200px / auto auto auto;
+}
+#article2text{
+    margin-right:2%;
+}
+.article2button{
+    background-color: #B4CD5E;
+    text-transform: uppercase;
+    color: white;
+    padding: 12px;
+    margin-left: 76%;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    border: 0;
+}
+
+
+.article3picture{
+    width: 400px;
+}
+.article3{
+    padding-top: 40px;
+    display: grid;
+    grid-template: 200px / auto auto auto;
+}
+#article3text{
+    margin-left: 2%;
+}
+.article3button{
+    background-color: #B4CD5E;
+    text-transform: uppercase;
+    color: white;
+    padding: 12px;
+    margin-left: 74%;
+    margin-top: 4%;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    border: 0;
+}
+
 footer{
     display: inline-block;
     width: 100%;
@@ -125,12 +131,13 @@ footer{
 
 }
 
+
 .footer-content {
     display: flex;
     justify-content: center;
     margin-left: -120px;
     margin-right: -120px;
-    background-color: #FFC107;
+    background-color: #FFF9E6;
     padding-top: 20px;
     padding-bottom: 20px;
 
@@ -244,5 +251,10 @@ a button:hover {
     margin-top: 60px;
     margin-bottom: 30px;
 }
-
+.logo-nav {
+    width: 150px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
 
