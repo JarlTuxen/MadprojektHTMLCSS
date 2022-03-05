@@ -13,10 +13,16 @@
     letter-spacing: 2px;
     justify-content: center;
     display: flex;
-    margin-right: 190px;
-    margin-left:  190px;
+    margin-right: 8%;
+    margin-left:  8%;
     box-sizing: border-box;
 
+}
+
+#navbar a:hover {
+    background-color: #FFF9E6;
+    transition-duration: .3s;
+    border-radius: 2px;
 }
 
 /* Navbar links */
