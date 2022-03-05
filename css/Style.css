@@ -29,7 +29,7 @@ html, body {
 
 .wrapper{
     background-color: #FFF9E6;
-    width: 73.5%;
+    width: 75%;
     font-size: 30px;
     line-height: 30px;
     text-align: justify;
@@ -100,7 +100,6 @@ html, body {
     border: 0;
 }
 
-
 .article3picture{
     width: 400px;
 }
@@ -110,7 +109,7 @@ html, body {
     grid-template: 200px / auto auto auto;
 }
 #article3text{
-    margin-left: 2%;
+    margin-right: 1%;
 }
 .article3button{
     background-color: #B4CD5E;
@@ -253,4 +252,66 @@ a button:hover {
     display: flex;
     justify-content: center;
 }
+.img-section1{
+    height: 28%;
+    width: 100%;
+    padding-bottom: 30%;
+    background: url("../images/20190920-194800-7_23mb.jpeg") ;
+    background-size: cover;
+}
+.card1{
+    width: 375px;
+    height: 610px;
+    background: #FFD75E;
+    border-radius: 5px;
+    text-align: center;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-bottom: 2%;
 
+}
+
+.info1{
+    color: black;
+    padding-top: 10%
+}
+.hvadermadspilknap{
+    background-color: #B4CD5E;
+    text-transform: uppercase;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    border: 0;
+}
+
+@media (min-width: 1140px) {
+    .card1{
+        height: 25rem;
+        width: 60rem;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+
+.img-section2{
+    height: 28%;
+    width: 100%;
+    padding-bottom: 30%;
+    background: url("../images/2400_Hvorfor-er-madspild-et-problem_gammel_mad.jpeg") ;
+    background-size: cover;
+}
+
+.img-section3{
+    height: 28%;
+    width: 100%;
+    padding-bottom: 30%;
+    background: url("../images/18752860-topbillede.jpeg");
+    background-size: cover;
+    background-position-x: -100px;
+}
+.header2artikel3{
+    margin: auto;
+}
