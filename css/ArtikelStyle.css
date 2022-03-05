@@ -118,7 +118,7 @@ p {
 .paragraf-box {
     flex: 0 0 70%;
     max-width: 70%;
-    padding-left: 5%;
+    padding-left: 3%;
 
 }
 
@@ -131,8 +131,8 @@ p {
 }
 
 .article-background {
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 7%;
+    margin-right: 7%;
     display: flex;
     flex-wrap: wrap;
     background-color: #FFF9E6;
@@ -305,12 +305,38 @@ li {
     font-weight: 300;
     font-size: 16px;
     font-family: Inter, sans-serif;
+    text-decoration: none;
 }
 
 .li-nav:hover {
-   background-color: #FFD75E;
+    background-color: #FFD75E;
     border-radius: 2px;
     transition-duration: .3s;
+}
+
+
+.li-nav:active {
+    background-color: #de2525;
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px 10px;
+    list-style: none;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    color: #131313;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.caption {
+    font-size: 10px;
+    margin-top: -15px;
+    margin-bottom: 20px;
 }
 
 .big-images {
@@ -330,6 +356,9 @@ li {
 .socials {
     display: flex;
     flex-direction: row-reverse;
+}
+a button:hover {
+    cursor: pointer;
 }
 
 .logo {
