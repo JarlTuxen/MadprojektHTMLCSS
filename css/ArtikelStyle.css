@@ -44,6 +44,7 @@ body {
 .navi-section {
     margin-top: -85px;
 
+
 }
 
 h2 {
@@ -180,6 +181,7 @@ p {
 ul.breadcrumb {
     padding-bottom: 10px;
     padding-top: 10px;
+    padding-left: 0;
     padding-right: 16px;
     list-style: none;
     background-color: #FFF9E6;
@@ -205,6 +207,7 @@ ul.breadcrumb li+li:before {
 ul.breadcrumb li a {
     color: #0275d8;
     text-decoration: none;
+    padding-left:0;
 }
 
 ul.breadcrumb li a:hover {
