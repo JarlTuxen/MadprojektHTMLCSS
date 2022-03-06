@@ -262,7 +262,7 @@ a button:hover {
     justify-content: center;
 }
 .img-section1{
-    height: 28%;
+    height: 52%;
     width: 100%;
     padding-bottom: 30%;
     background: url("../images/20190920-194800-7_23mb.jpeg") ;
@@ -300,14 +300,15 @@ a button:hover {
 @media (min-width: 1140px) {
     .card1{
         height: 25rem;
-        width: 60rem;
+        width: 40rem;
         display: flex;
+        justify-content: center;
         flex-direction: row-reverse;
     }
 }
 
 .img-section2{
-    height: 28%;
+    height: 52%;
     width: 100%;
     padding-bottom: 30%;
     background: url("../images/2400_Hvorfor-er-madspild-et-problem_gammel_mad.jpeg") ;
@@ -315,12 +316,12 @@ a button:hover {
 }
 
 .img-section3{
-    height: 28%;
+    height: 52%;
     width: 100%;
     padding-bottom: 30%;
     background: url("../images/18752860-topbillede.jpeg");
     background-size: cover;
-    background-position-x: -100px;
+    background-position-x: -200px;
 }
 .header2artikel3{
     margin: auto;
