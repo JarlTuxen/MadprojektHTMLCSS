@@ -17,6 +17,7 @@
     margin-right: 7%;
     margin-left:  7%;
     box-sizing: border-box;
+    z-index: 2;
 
 }
 
@@ -37,6 +38,7 @@
     padding: 20px;
     text-decoration: none;
     position: relative;
+
 
 
 }

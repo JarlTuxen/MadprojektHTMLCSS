@@ -569,14 +569,18 @@ a button:hover {
     display: flex;
     margin-bottom: 90px;
     margin-top: 40px;
+    justify-content: start;
+
 }
 .cards2 {
     display: flex;
     margin-bottom: 90px;
+    justify-content: end;
 }
 .cards3 {
     display: flex;
     margin-bottom: 20px;
+    justify-content: start;
 }
 
 .card {
@@ -586,6 +590,8 @@ a button:hover {
     border-radius: 5px;
     display: flex;
     justify-content: start;
+    position: relative;
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
 }
 
 .card2 {
@@ -595,7 +601,8 @@ a button:hover {
     border-radius: 5px;
     display: flex;
     justify-content: start;
-    flex-direction: row-reverse;
+    position: relative;
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
 }
 
 .card3 {
@@ -605,6 +612,8 @@ a button:hover {
     border-radius: 5px;
     display: flex;
     justify-content: start;
+    position: relative;
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
 }
 
 
@@ -612,6 +621,7 @@ a button:hover {
     flex: 0 0 65%;
     max-width: 65%;
     padding: 4% 4% 4%;
+    min-width: 65%;
 }
 
 .card-header-container {
@@ -630,7 +640,7 @@ a button:hover {
 .card-text {
     color: #1a1919;
     margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 2em;
 }
 
 .card-button-container {
@@ -642,6 +652,8 @@ a button:hover {
     margin-top: -20px;
     margin-bottom: 20px;
     margin-left: -20px;
+    min-width: 35%;
+    max-width: 35%;
 }
 .card-img2 {
     border-radius: 5px;
@@ -656,8 +668,8 @@ a button:hover {
     margin-left: -20px;
 }
 
-.card-button {
-    display: flex;
+.button-link {
+    display: inline-block;
     font-size: 18px;
     line-height: 1;
     color: #fafafa;
@@ -670,10 +682,59 @@ a button:hover {
     cursor: pointer;
 }
 
-.card-button:hover {
+.button-link:hover {
     transition-duration: 0.3s;
     color: #ece5e5;
     background-color: green;
     -ms-transform: scale(1.2);
     transform: scale(1.2);
+}
+
+.ribbon {
+    width: 125px;
+    height: 125px;
+    overflow: hidden;
+    position: absolute;
+}
+.ribbon::before,
+.ribbon::after {
+    position: absolute;
+    z-index: -1;
+    display: block;
+    border: 5px solid #2980b9;
+}
+.ribbon span {
+    position: absolute;
+    display: block;
+    width: 225px;
+    background-color: green;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.13);
+    color: #fff;
+    font: 600 14px/1 'Inter', Inter;
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 10px 10px 0;
+}
+.ribbon-top-right {
+    top: -10px;
+    right: -10px;
+}
+.ribbon-top-right::before,
+.ribbon-top-right::after {
+    border-top-color: transparent;
+    border-right-color: transparent;
+}
+.ribbon-top-right::before {
+    top: 0;
+    left: 0;
+}
+.ribbon-top-right::after {
+    bottom: 0;
+    right: 0;
+}
+.ribbon-top-right span {
+    left: -25px;
+    top: 30px;
+    transform: rotate(45deg);
 }
