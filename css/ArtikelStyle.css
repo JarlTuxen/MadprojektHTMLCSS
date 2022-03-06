@@ -3,6 +3,19 @@
     padding: 0;
     box-sizing: border-box;
     /*border: 2px solid black;*/
+
+}
+@font-face {
+    font-family: Inter;
+    url("/font/Inter-Black.ttf") format("ttf");
+    url("/font/Inter-Bold.ttf") format("ttf");
+    url("/font/Inter-ExtraBold.ttf") format("ttf");
+    url("/font/Inter-ExtraLight.ttf") format("ttf");
+    url("/font/Inter-Light.ttf") format("ttf");
+    url("/font/Inter-Medium.ttf") format("ttf");
+    url("/font/Inter-Regular.ttf") format("ttf");
+    url("/font/Inter-SemiBold.ttf") format("ttf");
+    url("/font/Inter-Thin.ttf") format("ttf");
 }
 
 .article-img-box {
