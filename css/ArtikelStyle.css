@@ -39,7 +39,7 @@ url("/font/Inter-Thin.ttf") format("ttf");
 }
 
 body {
-    font-family: sans-serif;
+    font-family: Inter, sans-serif;
     line-height: 1.8;
     letter-spacing: 0.6px;
 
@@ -56,13 +56,12 @@ body {
 .navi-section {
     margin-top: -85px;
 
-
 }
 
 h2 {
     font-size: 32px;
     font-weight: 900;
-    font-family: Inter, serif;
+    font-family: Inter, sans-serif;
 
 }
 
@@ -111,6 +110,8 @@ h2 {
     margin-bottom: 30px;
 
 }
+
+
 
 p {
     font-weight: 300;
@@ -710,9 +711,9 @@ a button:hover {
     background-color: green;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.13);
     color: #fff;
-    font: 600 14px/1 'Inter', Inter;
+    font: 600 14px/1 'Inter', sans-serif;
     text-shadow: 0 1px 1px rgba(0,0,0,.2);
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-align: center;
     padding: 10px 10px 10px 0;
 }
