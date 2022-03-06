@@ -7,7 +7,7 @@ html, body {
 }
 .forsidebillede{
     width: 100%;
-    height: 96vh;
+    height: 95vh;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -25,6 +25,14 @@ html, body {
     font-size: 30px;
     line-height: 30px;
     text-align: justify;
+}
+.footer{
+    /* background-color: #FFC107; */
+    background-color: aqua;
+    display: flex;
+    text-align: center;
+    margin: 20px -60px;
+    padding: 20px 60px;
 }
 
 .wrapper{
@@ -79,6 +87,7 @@ html, body {
 }
 
 .article2picture{
+    padding-top: 20px;
     width: 350px;
 }
 .article2{
@@ -253,12 +262,13 @@ a button:hover {
     justify-content: center;
 }
 .img-section1{
-    height: 28%;
+    height: 52%;
     width: 100%;
     padding-bottom: 30%;
     background: url("../images/20190920-194800-7_23mb.jpeg") ;
     background-size: cover;
 }
+
 .card1{
     width: 375px;
     height: 610px;
@@ -290,14 +300,15 @@ a button:hover {
 @media (min-width: 1140px) {
     .card1{
         height: 25rem;
-        width: 60rem;
+        width: 40rem;
         display: flex;
+        justify-content: center;
         flex-direction: row-reverse;
     }
 }
 
 .img-section2{
-    height: 28%;
+    height: 52%;
     width: 100%;
     padding-bottom: 30%;
     background: url("../images/2400_Hvorfor-er-madspild-et-problem_gammel_mad.jpeg") ;
@@ -305,12 +316,12 @@ a button:hover {
 }
 
 .img-section3{
-    height: 28%;
+    height: 52%;
     width: 100%;
     padding-bottom: 30%;
     background: url("../images/18752860-topbillede.jpeg");
     background-size: cover;
-    background-position-x: -100px;
+    background-position-x: -200px;
 }
 .header2artikel3{
     margin: auto;
@@ -318,7 +329,7 @@ a button:hover {
     font-size: 32px;
 }
 .fact1{
-    width: 500px;
+    width: 350px;
     margin-bottom: 10%;
     padding: 10px;
     background: #FFD75E;
@@ -368,7 +379,7 @@ a button:hover {
     padding: 5px;
 }
 .fact4{
-    width: 500px;
+    width: 350px;
     margin-bottom: 10%;
     margin-left: 1%;
     padding: 10px;
@@ -411,18 +422,26 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
-
-/* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
     background-color: #45a049;
 }
-
 
 .FormContainer {
     border-radius: 5px;
     background-color: #FFC107;
     padding: 20px;
 }
+
 .header1Nyhedsbrev{
     padding: 3px;
+}
+
+#factsHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#artiklerHeader{
+    padding-top: 40%;
+
 }
