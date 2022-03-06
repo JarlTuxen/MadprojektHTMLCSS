@@ -259,6 +259,7 @@ a button:hover {
     background: url("../images/20190920-194800-7_23mb.jpeg") ;
     background-size: cover;
 }
+
 .card1{
     width: 375px;
     height: 610px;
@@ -411,18 +412,25 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
-
-/* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
     background-color: #45a049;
 }
-
 
 .FormContainer {
     border-radius: 5px;
     background-color: #FFC107;
     padding: 20px;
 }
+
 .header1Nyhedsbrev{
     padding: 3px;
+}
+
+#factsHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#artiklerHeader{
+    padding-top: 40%;
 }
