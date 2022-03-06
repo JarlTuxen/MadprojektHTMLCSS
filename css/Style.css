@@ -317,4 +317,112 @@ a button:hover {
     font-family: Georgia;
     font-size: 32px;
 }
+.fact1{
+    width: 500px;
+    margin-bottom: 10%;
+    padding: 10px;
+    background: #FFD75E;
 
+}
+.fact1billede{
+    background-size: cover;
+
+}
+#fact1tekst{
+    font-size: 19px;
+    font-family: sans-serif;
+}
+#fact2tekst{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.fact2{
+    width: 336px;
+    margin-bottom: 3%;
+    margin-right: 5%;
+    padding: 10px;
+    background: #FFD75E;
+}
+#fact2tekst2{
+    font-size: 15px;
+    background-color: #FFC107;
+    font-family: sans-serif;
+    padding: 5px;
+}
+.fact3{
+    width: 552px;
+    margin-bottom: 10%;
+    padding: 10px;
+    background: #FFD75E;
+}
+#fact3tekst{
+    font-size: 19px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+#fact3tekst3{
+    font-size: 15px;
+    background-color: #FFC107;
+    font-family: sans-serif;
+    padding: 5px;
+}
+.fact4{
+    width: 500px;
+    margin-bottom: 10%;
+    margin-left: 1%;
+    padding: 10px;
+    background: #FFD75E;
+}
+#fact4tekst{
+    font-size: 18px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+#fact4tekst4{
+    font-size: 15px;
+    background-color: #FFC107;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+#article4text{
+    margin-right: 1%;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+
+input[type=submit] {
+    background-color: #B4CD5E;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.FormContainer {
+    border-radius: 5px;
+    background-color: #FFC107;
+    padding: 20px;
+}
+.header1Nyhedsbrev{
+    padding: 3px;
+}
