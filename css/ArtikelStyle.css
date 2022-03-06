@@ -564,3 +564,116 @@ a button:hover {
     -ms-transform: scale(1.2);
     transform: scale(1.2);
 }
+
+.cards {
+    display: flex;
+    margin-bottom: 90px;
+    margin-top: 40px;
+}
+.cards2 {
+    display: flex;
+    margin-bottom: 90px;
+}
+.cards3 {
+    display: flex;
+    margin-bottom: 90px;
+}
+
+.card {
+    width: 95%;
+    height: 100%;
+    background: #FFD75E;
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+}
+
+.card2 {
+    width: 95%;
+    height: 100%;
+    background: #FFD75E;
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    flex-direction: row-reverse;
+}
+
+.card3 {
+    width: 95%;
+    height: 100%;
+    background: #FFD75E;
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+}
+
+
+.card-right {
+    flex: 0 0 65%;
+    max-width: 65%;
+    padding: 4% 4% 4%;
+}
+
+.card-header-container {
+
+}
+
+.card-header {
+    font-size: 28px;
+    line-height: 1;
+}
+
+.card-text-container {
+
+}
+
+.card-text {
+    color: #1a1919;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card-button-container {
+
+}
+
+.card-img {
+    border-radius: 5px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+.card-img2 {
+    border-radius: 5px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.card-img3 {
+    border-radius: 5px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+
+.card-button {
+    display: flex;
+    font-size: 18px;
+    line-height: 1;
+    color: #fafafa;
+    background-color: green;
+    font-weight: bold;
+    padding: 14px;
+    border: 0;
+    margin-right: 30%;
+    font-family: Inter, sans-serif;
+    cursor: pointer;
+}
+
+.card-button:hover {
+    transition-duration: 0.3s;
+    color: #ece5e5;
+    background-color: green;
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
