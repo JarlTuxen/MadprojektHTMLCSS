@@ -26,6 +26,14 @@ html, body {
     line-height: 30px;
     text-align: justify;
 }
+.footer{
+    /* background-color: #FFC107; */
+    background-color: aqua;
+    display: flex;
+    text-align: center;
+    margin: 20px -60px;
+    padding: 20px 60px;
+}
 
 .wrapper{
     background-color: #FFF9E6;
@@ -79,6 +87,7 @@ html, body {
 }
 
 .article2picture{
+    padding-top: 20px;
     width: 350px;
 }
 .article2{
@@ -319,7 +328,7 @@ a button:hover {
     font-size: 32px;
 }
 .fact1{
-    width: 500px;
+    width: 350px;
     margin-bottom: 10%;
     padding: 10px;
     background: #FFD75E;
@@ -369,7 +378,7 @@ a button:hover {
     padding: 5px;
 }
 .fact4{
-    width: 500px;
+    width: 350px;
     margin-bottom: 10%;
     margin-left: 1%;
     padding: 10px;
