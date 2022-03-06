@@ -576,7 +576,7 @@ a button:hover {
 }
 .cards3 {
     display: flex;
-    margin-bottom: 90px;
+    margin-bottom: 20px;
 }
 
 .card {
@@ -630,7 +630,7 @@ a button:hover {
 .card-text {
     color: #1a1919;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .card-button-container {
