@@ -5,17 +5,18 @@
     /*border: 2px solid black;*/
 
 }
+
 @font-face {
     font-family: Inter;
-    url("/font/Inter-Black.ttf") format("ttf");
-    url("/font/Inter-Bold.ttf") format("ttf");
-    url("/font/Inter-ExtraBold.ttf") format("ttf");
-    url("/font/Inter-ExtraLight.ttf") format("ttf");
-    url("/font/Inter-Light.ttf") format("ttf");
-    url("/font/Inter-Medium.ttf") format("ttf");
-    url("/font/Inter-Regular.ttf") format("ttf");
-    url("/font/Inter-SemiBold.ttf") format("ttf");
-    url("/font/Inter-Thin.ttf") format("ttf");
+url("/font/Inter-Black.ttf") format("ttf");
+url("/font/Inter-Bold.ttf") format("ttf");
+url("/font/Inter-ExtraBold.ttf") format("ttf");
+url("/font/Inter-ExtraLight.ttf") format("ttf");
+url("/font/Inter-Light.ttf") format("ttf");
+url("/font/Inter-Medium.ttf") format("ttf");
+url("/font/Inter-Regular.ttf") format("ttf");
+url("/font/Inter-SemiBold.ttf") format("ttf");
+url("/font/Inter-Thin.ttf") format("ttf");
 }
 
 .article-img-box {
@@ -28,10 +29,8 @@
 
 }
 
-
-
 .article-img-box img {
-   width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -66,6 +65,7 @@ h2 {
     font-family: Inter, serif;
 
 }
+
 .article-header.first-header {
     margin-bottom: 5px;
 }
@@ -131,7 +131,7 @@ p {
 .background {
     width: 100%;
     background-color: #FFD75E;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 
 
 }
@@ -146,10 +146,10 @@ p {
 
 
 }
+
 .article-header {
     margin-bottom: -25px;
 }
-
 
 
 .paragraf {
@@ -182,12 +182,8 @@ p {
 }
 
 
-
 ul.breadcrumb {
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left: 0;
-    padding-right: 16px;
+    padding: 10px 16px 10px 0;
     list-style: none;
     background-color: #FFF9E6;
     margin-bottom: 20px;
@@ -202,7 +198,7 @@ ul.breadcrumb li {
 }
 
 
-ul.breadcrumb li+li:before {
+ul.breadcrumb li + li:before {
     padding: 8px;
     color: black;
     content: "/\00a0";
@@ -212,7 +208,7 @@ ul.breadcrumb li+li:before {
 ul.breadcrumb li a {
     color: #0275d8;
     text-decoration: none;
-    padding-left:0;
+    padding-left: 0;
 }
 
 ul.breadcrumb li a:hover {
@@ -226,12 +222,12 @@ ul.breadcrumb li a:hover {
     margin-bottom: 10px;
 
 }
+
 .info1 {
     display: flex;
     margin-bottom: 10px;
 
 }
-
 
 
 .header-two {
@@ -254,16 +250,19 @@ ul.breadcrumb li a:hover {
     color: #938e8e;
     letter-spacing: 1.5px;
 }
+
 .summary-box {
     display: inline-block;
     width: 100%;
     margin-top: 80px;
     margin-bottom: 40px;
 }
-footer{
+
+footer {
     display: inline-block;
     width: 100%;
     margin-top: 40px;
+
 
 }
 
@@ -275,7 +274,7 @@ footer{
     margin-right: -120px;
     background-color: #FFF9E6;
     padding-top: 20px;
-    padding-bottom: 20px;
+    margin-bottom: -40px;
 
 }
 
@@ -316,7 +315,7 @@ footer{
 
 
 .numbered-list {
-    padding-left:20px;
+    padding-left: 20px;
     font-weight: 300;
     font-size: 16px;
     font-family: Inter, sans-serif;
@@ -324,6 +323,7 @@ footer{
     color: #4b4747;
     margin-bottom: 20px;
 }
+
 .bullet-list {
     font-weight: 300;
     font-size: 16px;
@@ -411,10 +411,12 @@ a {
     margin-right: 40px;
 
 }
+
 .socials {
     display: flex;
     flex-direction: row-reverse;
 }
+
 a button:hover {
     cursor: pointer;
 }
@@ -424,7 +426,8 @@ a button:hover {
     justify-content: flex-end;
     padding-bottom: 1%;
 }
-.second-small-section-box{
+
+.second-small-section-box {
     display: flex;
     flex-direction: row-reverse;
     margin-top: 60px;
@@ -452,10 +455,12 @@ a button:hover {
 
 
 }
+
 .next:after {
     content: "\2192";
     margin-left: 10px;
 }
+
 .next:hover {
 
     transition-duration: 0.3s;
@@ -496,6 +501,7 @@ a button:hover {
     transform: scale(1.2);
     border-radius: 8px 8px 8px 8px;
 }
+
 .logo {
     display: flex;
     justify-content: flex-end;
@@ -503,7 +509,7 @@ a button:hover {
 }
 
 .cta {
-    margin-top:50px;
+    margin-top: 50px;
 }
 
 .cta-wrapper {
@@ -512,6 +518,7 @@ a button:hover {
     padding-left: 2%;
     padding-right: 30%;
 }
+
 .cta-text::before {
     content: "Bekæmp madspild!";
     display: flex;
@@ -530,7 +537,7 @@ a button:hover {
     font-family: Inter, sans-serif;
 }
 
-.cta-header{
+.cta-header {
     width: 100%;
     height: 450px;
     display: flex;
