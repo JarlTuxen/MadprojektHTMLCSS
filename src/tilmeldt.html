@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/Style.css">
+    <link rel="stylesheet" href="/css/NavBar.css">
+    <title>Madgild - Stop madspild</title>
+</head>
+<body style="background-color: #FFD75E">
+        <div class="navbar" id="navbar">
+            <a href="index.html"><img class="small-nav-logo" src="/images/LogoMadgildGrønSmall.png" alt="logo"/></a>
+            <a href="madspild.html">Hvad er Madspild?</a>
+            <a href="ivaerksaetteri.html">Iværksætteri</a>
+            <a href="sundhed.html">Sundhed</a>
+            <a href="artikler.html">Artikler</a>
+        </div>
+
+
+
+<div class="background">
+
+    <div class="article-background">
+        <div class = "tilmeldt">
+            <h2 class="header-two">Du er nu tilmeldt vores nyhedsbrev</h2>
+            <h3>Klik på vores logo, for at komme tilbage til forsiden</h3>
+        </div>
+
+
+        <footer>
+            <div class="footer-content">
+                <div class="logo">
+                    <a href="index.html"><img class="logo-nav" src="/images/LogoMadgild.png" alt="logo"/></a>
+                </div>
+                <nav class="navigation">
+                    <ul class="list">
+                        <a href="index.html">
+                            <li class="li-nav">
+                                Hjem
+                            </li>
+                        </a>
+                        <a href="artikler.html">
+                            <li class="li-nav">
+                                Artikler
+                            </li>
+                        </a>
+                        <a href="madspild.html">
+                            <li class="li-nav">
+                                Madspild
+                            </li>
+                        </a>
+                        <a href="sundhed.html">
+                            <li class="li-nav">
+                                Sundhed
+                            </li>
+                        </a>
+                        <a href="ivaerksaetteri.html">
+                            <li class="li-nav">
+                                Iværksætteri
+                            </li>
+                        </a>
+                    </ul>
+                </nav>
+                <div class="socials">
+                    <div class="facebook">
+                        <a href="https://www.facebook.com/Madspild" target="_blank"><img class="logo-nav"
+                                                                                         src="/images/2021_Facebook_icon.svg.png"
+                                                                                         alt="logo"/></a>
+                    </div>
+                    <div class="instagram">
+                        <a href="https://www.instagram.com/explore/tags/stopspildafmad/?fbclid=IwAR2C83X8bhgv_EAyLb6qJ4iO8KZ1IAYbKLNdNsRpZQZMDdCxVGDSrVQKYn8"
+                           target="_blank"><img class="logo-nav" src="/images/Instagram_logo_2016.svg.png" alt="logo"/></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+<script>
+    //Dette er taget fra: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function () {
+        myFunction()
+    };
+
+    // Get the navbar
+    var navbar = document.getElementById("navbar");
+
+    // Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
+
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
+
+</body>
+</html>
