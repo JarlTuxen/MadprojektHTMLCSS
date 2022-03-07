@@ -39,7 +39,7 @@ url("/font/Inter-Thin.ttf") format("ttf");
 }
 
 body {
-    font-family: sans-serif;
+    font-family: Inter, sans-serif;
     line-height: 1.8;
     letter-spacing: 0.6px;
 
@@ -62,7 +62,7 @@ body {
 h2 {
     font-size: 32px;
     font-weight: 900;
-    font-family: Inter, serif;
+    font-family: Inter, sans-serif;
 
 }
 
@@ -843,7 +843,7 @@ input[type=submit]:hover {
 --
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Inter, sans-serif;
     background: rgb(170, 169, 169);
     margin: 0;
     padding: 0;
@@ -885,10 +885,7 @@ h2 {
     margin-top: 0;
 }
 
-div img {
-    width: 150px;
-    filter: drop-shadow(0 10px 5px black);
-}
+
 
 .faculties {
     display: flex;
