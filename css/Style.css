@@ -302,8 +302,8 @@ footer {
 }
 
 .logo img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 .numbered-li {
@@ -796,7 +796,7 @@ input[type=submit]:hover {
     padding: 1%;
 }
 .containerfacts  {
-    text-align: center;
+    text-align: start;
     display: flex;
     margin-bottom: 30%;
 }
@@ -806,8 +806,9 @@ input[type=submit]:hover {
 .factHeader{
     font-size: 42px;
     line-height: 1.2;
-    margin-top: 3%;
+    margin-top: 7%;
     margin-bottom: 3%;
+
 }
 .fakta1billede{
     width: 300px;
@@ -874,8 +875,7 @@ hr {
 
 h2 {
     font-size: 25px;
-    font-weight: normal;
-    text-transform: uppercase;
+    font-weight: 900;
 }
 
 .mission-txt {
